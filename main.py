@@ -96,7 +96,7 @@ def find_movies_by_user(user_id: int, db: Session = Depends(get_db)):
             genre_counts[genre] += 1
         genre = RatingsResponse.from_orm(rating).dict()["movie"]["genres"]
     
-    
+
     print(genre_counts)
     return [RatingsResponse.from_orm(rating) for rating in ratings]
 
@@ -120,6 +120,7 @@ def find_users_by_movie(movie_id: int, db: Session = Depends(get_db)):
           name="Generate recommender to user",
           description="Train a genetic algorithm to generate a recommender to user")
 def recommender(configuration: GeneticConfiguration, db: Session = Depends(get_db)):
+    from collections import defaultdict
     movies = MovieRepository.find_all(db)
     all_ids = [movie.movieId for movie in movies]
 
@@ -145,6 +146,15 @@ def recommender(configuration: GeneticConfiguration, db: Session = Depends(get_d
     best = my_genetic.get_best()
 
     recommender_movies = MovieRepository.find_all_ids(db, best)
+
+    recommended_genre_counts = defaultdict(int)
+    
+    for movie in recommender_movies:
+        genres = movie.genres.split('|')
+        for genre in genres:
+            recommended_genre_counts[genre] += 1
+
+    print(recommended_genre_counts)
 
     return {'logs': log, 'best': recommender_movies}
 
