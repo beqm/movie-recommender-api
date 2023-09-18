@@ -80,7 +80,7 @@ def find_user_by_id(id: int, db: Session = Depends(get_db)):
          name="Get all movies rated by user",
          description="Return all movies that was rated by a user with the rating.")
 def find_movies_by_user(user_id: int, db: Session = Depends(get_db)):
-
+    from collections import defaultdict
     ratings = RatingsRepository.find_by_userid(db, user_id)
     
     if len(ratings) == 0:
@@ -88,6 +88,16 @@ def find_movies_by_user(user_id: int, db: Session = Depends(get_db)):
             status_code=status.HTTP_404_NOT_FOUND, detail="User not found."
         )
     
+    genre_counts = defaultdict(int)
+    
+    for rating in ratings:
+        genres = RatingsResponse.from_orm(rating).dict()["movie"]["genres"].split('|')
+        for genre in genres:
+            genre_counts[genre] += 1
+        genre = RatingsResponse.from_orm(rating).dict()["movie"]["genres"]
+    
+    
+    print(genre_counts)
     return [RatingsResponse.from_orm(rating) for rating in ratings]
 
 
