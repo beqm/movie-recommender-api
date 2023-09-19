@@ -1,9 +1,10 @@
 import json
 from datetime import datetime
 
-def generate_report(params, accuracy, user_genre, recommended_genre, logs, best):
+def generate_report(elapsed_seconds, params, accuracy, user_genre, recommended_genre, logs, best):
     current_time = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     report = {
+        'elapsed': f"{elapsed_seconds:.2f}s",
         "params": params,
         "accuracy": accuracy,
         "user_genre": user_genre,

@@ -164,6 +164,10 @@ def recommender(configuration: GeneticConfiguration, db: Session = Depends(get_d
 def testing(configuration: GeneticConfiguration, db: Session = Depends(get_db)):
     from utils import calculate_genre_accuracy, calculate_global_accuracy, generate_report
     from collections import defaultdict
+    from datetime import datetime
+
+    start_time = datetime.now() 
+
     movies = MovieRepository.find_all(db)
     all_ids = [movie.movieId for movie in movies]
 
@@ -224,9 +228,14 @@ def testing(configuration: GeneticConfiguration, db: Session = Depends(get_db)):
     accuracy = calculate_genre_accuracy(genre_counts, best_recommended_genre_counts)
     accuracy["total"] = calculate_global_accuracy(accuracy)
     
-    generate_report(configuration.dict(), accuracy, genre_counts, best_recommended_genre_counts, log, movies)
 
-    return {'accuracy': accuracy, 'user_genre_count': genre_counts, 'best_recommended_genre_count': best_recommended_genre_counts, 'best_movies': movies}
+    end_time = datetime.now() 
+    elapsed_time = end_time - start_time
+    elapsed_seconds = elapsed_time.total_seconds()
+
+    generate_report(elapsed_seconds, configuration.dict(), accuracy, genre_counts, best_recommended_genre_counts, log, movies)
+
+    return {'elapsed': elapsed_seconds,'accuracy': accuracy, 'user_genre_count': genre_counts, 'best_recommended_genre_count': best_recommended_genre_counts, 'best_movies': movies}
 
 
 
