@@ -158,6 +158,76 @@ def recommender(configuration: GeneticConfiguration, db: Session = Depends(get_d
 
     return {'logs': log, 'best': recommender_movies}
 
+@app.post("/api/testing",
+          name="Generate recommender to user",
+          description="Train a genetic algorithm to generate a recommender to user")
+def testing(configuration: GeneticConfiguration, db: Session = Depends(get_db)):
+    from utils import calculate_genre_accuracy, calculate_global_accuracy, generate_report
+    from collections import defaultdict
+    movies = MovieRepository.find_all(db)
+    all_ids = [movie.movieId for movie in movies]
+
+    p_crossover = configuration.p_crossover / 100
+    p_mutatioin = configuration.p_mutation / 100
+    
+    my_genetic = MyGeneticAlgorithm(
+        configuration.query_search,
+        configuration.individual_size, 
+        configuration.population_size, 
+        p_crossover,
+        p_mutatioin,
+        all_ids, 
+        configuration.max_generations, 
+        configuration.size_hall_of_fame, 
+        (1.0, ),
+        configuration.seed,
+        db
+        )
+    
+    my_genetic.eval()
+    log = my_genetic.get_log()
+    best = my_genetic.get_best()
+
+    recommender_movies = MovieRepository.find_all_ids(db, best)
+
+    best_recommended_genre_counts = defaultdict(int)
+    
+    for movie in recommender_movies:
+        genres = movie.genres.split('|')
+        for genre in genres:
+            best_recommended_genre_counts[genre] += 1
+
+        ratings = RatingsRepository.find_by_userid(db, configuration.query_search)
+    
+    if len(ratings) == 0:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="User not found."
+        )
+    
+    genre_counts = defaultdict(int)
+    movies = {}
+    
+    for rating in ratings:
+        movie = RatingsResponse.from_orm(rating).dict()["movie"]
+        movies[movie["title"]] = movie
+        genres = RatingsResponse.from_orm(rating).dict()["movie"]["genres"].split('|')
+        for genre in genres:
+            genre_counts[genre] += 1
+        genre = RatingsResponse.from_orm(rating).dict()["movie"]["genres"]
+    
+    genre_counts["sum"] = sum(genre_counts.values())
+    genre_counts = {key: genre_counts[key] for key in sorted(genre_counts)}
+
+    best_recommended_genre_counts["sum"] = sum(best_recommended_genre_counts.values())
+    best_recommended_genre_counts = {key: best_recommended_genre_counts[key] for key in sorted(best_recommended_genre_counts)}
+
+    accuracy = calculate_genre_accuracy(genre_counts, best_recommended_genre_counts)
+    accuracy["total"] = calculate_global_accuracy(accuracy)
+    
+    generate_report(configuration.dict(), accuracy, genre_counts, best_recommended_genre_counts, log, movies)
+
+    return {'accuracy': accuracy, 'user_genre_count': genre_counts, 'best_recommended_genre_count': best_recommended_genre_counts, 'best_movies': movies}
+
 
 
 
