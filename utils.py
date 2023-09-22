@@ -29,14 +29,14 @@ def calculate_genre_accuracy(user_genre_count, best_recommended_genre_count):
             user_count = user_genre_count[genre]
             recommended_count = best_recommended_genre_count.get(genre, 0)
             
-            margin = 0.10 * user_total
+            margin = 0.90
+
+            recommended_total = recommended_count * margin
             
-            if user_count >= recommended_count + margin:
+            if user_count >= recommended_count:
                 genre_accuracy = 100.0
-            elif user_count > recommended_count:
-                genre_accuracy = ((user_count - recommended_count) / margin) * 10 + 90
             else:
-                genre_accuracy = (user_count / (user_count + recommended_count)) * 100
+                genre_accuracy = (user_count / (user_count + recommended_total)) * 100
             
             accuracy[genre] = f"{genre_accuracy:.2f}%"
     
