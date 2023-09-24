@@ -237,6 +237,26 @@ def testing(configuration: GeneticConfiguration, db: Session = Depends(get_db)):
 
     return {'elapsed': elapsed_seconds,'accuracy': accuracy, 'user_genre_count': genre_counts, 'best_recommended_genre_count': best_recommended_genre_counts, 'best_movies': movies}
 
+@app.get("/api/movies/many/{amount}",
+         name="Get movies by specifying amount",
+         description="Return N movies")
+def get_n_movies(amount: int, db: Session = Depends(get_db)):
+ 
+    if 0 >= amount > 9742:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="The amount cant be higher than 9742 or 0."
+        )
+    
+    movies = []
+    for id in range(1, amount+1):
+        movie = MovieRepository.find_by_id(db, id)
+        if movie:
+            movies.append(MovieResponse.from_orm(movie))
+        
+    return {"movies": movies}
+    
+
+
 
 
 
