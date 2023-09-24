@@ -31,20 +31,46 @@ class MyGeneticAlgorithm(Algorithm):
         
 
     
+
     def evaluate(self, individual):
+        if not self.has_duplicates(individual):
+            return (0.0,)
 
-        if len(individual) != len(set(individual)):
-            return (0.0, )
-        
-        if len(list(set(individual) - set(self.all_ids))) > 0:
-            return (0.0, )
-        
         ratings_movies = RatingsRepository.find_by_movieid_list(self.db, individual)
+        fitness = self.fitness(ratings_movies)
 
+        return (fitness, )
+    
+    def has_duplicates(self, individual):
+        if len(individual) != len(set(individual)):
+            return False
+
+        invalid_ids = set(individual) - set(self.all_ids)
+        if invalid_ids:
+            return False
+
+        return True
+
+    def fitness(self, ratings_movies):
         if len(ratings_movies) > 0:
-            mean_ = np.mean([obj_.rating for obj_ in ratings_movies])
+            weight = self.weight(ratings_movies)
+            mean_ = weight / np.mean([obj_.rating for obj_ in ratings_movies])
         else:
             mean_ = 0.0
 
-        return (mean_, )
+        return mean_
+    
+    def weight(self, ratings_movies):
+        if len(ratings_movies) > 0:
+            total_rating = sum(obj_.rating for obj_ in ratings_movies)
+            average_rating = total_rating / len(ratings_movies)
+
+            if average_rating >= 4.0:
+                weight = 0.5 
+            else:
+                weight = 0.1 
+        else:
+            weight = 0.0 
+
+        return weight
 
