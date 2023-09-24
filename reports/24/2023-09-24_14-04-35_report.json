@@ -1,0 +1,2040 @@
+{
+    "elapsed": "4.37s",
+    "params": {
+        "query_search": 1,
+        "individual_size": 600,
+        "population_size": 150,
+        "p_crossover": 95.0,
+        "p_mutation": 5.0,
+        "max_generations": 15,
+        "size_hall_of_fame": 1,
+        "seed": 42
+    },
+    "accuracy": {
+        "Action": "51.02%",
+        "Adventure": "100.00%",
+        "Animation": "50.17%",
+        "Children": "100.00%",
+        "Comedy": "27.19%",
+        "Crime": "42.37%",
+        "Drama": "23.00%",
+        "Fantasy": "48.25%",
+        "Film-Noir": "12.20%",
+        "Horror": "21.49%",
+        "Musical": "100.00%",
+        "Mystery": "31.75%",
+        "Romance": "21.58%",
+        "Sci-Fi": "47.06%",
+        "Thriller": "35.71%",
+        "War": "100.00%",
+        "Western": "100.00%",
+        "total": "Total Accuracy: 53.63%"
+    },
+    "user_genre": {
+        "Action": 90,
+        "Adventure": 85,
+        "Animation": 29,
+        "Children": 42,
+        "Comedy": 83,
+        "Crime": 45,
+        "Drama": 68,
+        "Fantasy": 47,
+        "Film-Noir": 1,
+        "Horror": 17,
+        "Musical": 22,
+        "Mystery": 18,
+        "Romance": 26,
+        "Sci-Fi": 40,
+        "Thriller": 55,
+        "War": 22,
+        "Western": 7,
+        "sum": 697
+    },
+    "recommended_genre": {
+        "(no genres listed)": 1,
+        "Action": 96,
+        "Adventure": 71,
+        "Animation": 32,
+        "Children": 39,
+        "Comedy": 247,
+        "Crime": 68,
+        "Documentary": 38,
+        "Drama": 253,
+        "Fantasy": 56,
+        "Film-Noir": 8,
+        "Horror": 69,
+        "IMAX": 10,
+        "Musical": 15,
+        "Mystery": 43,
+        "Romance": 105,
+        "Sci-Fi": 50,
+        "Thriller": 110,
+        "War": 16,
+        "Western": 6,
+        "sum": 1333
+    },
+    "logs": [
+        {
+            "gen": 0,
+            "nevals": 150,
+            "avg": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "gen": 1,
+            "nevals": 138,
+            "avg": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "gen": 2,
+            "nevals": 142,
+            "avg": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "gen": 3,
+            "nevals": 150,
+            "avg": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "gen": 4,
+            "nevals": 144,
+            "avg": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "gen": 5,
+            "nevals": 148,
+            "avg": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "gen": 6,
+            "nevals": 140,
+            "avg": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "gen": 7,
+            "nevals": 137,
+            "avg": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "gen": 8,
+            "nevals": 142,
+            "avg": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "gen": 9,
+            "nevals": 144,
+            "avg": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "gen": 10,
+            "nevals": 143,
+            "avg": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "gen": 11,
+            "nevals": 150,
+            "avg": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "gen": 12,
+            "nevals": 147,
+            "avg": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "gen": 13,
+            "nevals": 146,
+            "avg": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "gen": 14,
+            "nevals": 138,
+            "avg": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "gen": 15,
+            "nevals": 146,
+            "avg": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "best": {
+        "Toy Story": {
+            "title": "Toy Story",
+            "year": 1995,
+            "genres": "Adventure|Animation|Children|Comedy|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0114709",
+            "movieId": 1
+        },
+        "Grumpier Old Men": {
+            "title": "Grumpier Old Men",
+            "year": 1995,
+            "genres": "Comedy|Romance",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMjQxM2YyNjMtZjUxYy00OGYyLTg0MmQtNGE2YzNjYmUyZTY1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0113228",
+            "movieId": 3
+        },
+        "Heat": {
+            "title": "Heat",
+            "year": 1995,
+            "genres": "Action|Crime|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYjZjNTJlZGUtZTE1Ny00ZDc4LTgwYjUtMzk0NDgwYzZjYTk1XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY150_CR1,0,101,150_.jpg",
+            "imdbId": "0113277",
+            "movieId": 6
+        },
+        "Seven (a.k.a. Se7en)": {
+            "title": "Seven (a.k.a. Se7en)",
+            "year": 1995,
+            "genres": "Mystery|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BOTUwODM5MTctZjczMi00OTk4LTg3NWUtNmVhMTAzNTNjYjcyXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0114369",
+            "movieId": 47
+        },
+        "Usual Suspects, The": {
+            "title": "Usual Suspects, The",
+            "year": 1995,
+            "genres": "Crime|Mystery|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYTViNjMyNmUtNDFkNC00ZDRlLThmMDUtZDU2YWE4NGI2ZjVmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0114814",
+            "movieId": 50
+        },
+        "From Dusk Till Dawn": {
+            "title": "From Dusk Till Dawn",
+            "year": 1996,
+            "genres": "Action|Comedy|Horror|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZjk3YmZhMDAtOWUzMS00YjE5LTkxNzAtY2I1NGZjMDA2ZTk0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0116367",
+            "movieId": 70
+        },
+        "Bottle Rocket": {
+            "title": "Bottle Rocket",
+            "year": 1996,
+            "genres": "Adventure|Comedy|Crime|Romance",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNzFlYWQxMjMtYTdmOC00NDA0LWI5NWQtNjc5OTc1ZDdkOGExXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0115734",
+            "movieId": 101
+        },
+        "Braveheart": {
+            "title": "Braveheart",
+            "year": 1995,
+            "genres": "Action|Drama|War",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMzkzMmU0YTYtOWM3My00YzBmLWI0YzctOGYyNTkwMWE5MTJkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0112573",
+            "movieId": 110
+        },
+        "Rob Roy": {
+            "title": "Rob Roy",
+            "year": 1995,
+            "genres": "Action|Drama|Romance|War",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTlmYzBiOGQtNmMwMS00NmU5LTgxODQtN2FiMGNmYTBlYzllXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0114287",
+            "movieId": 151
+        },
+        "Canadian Bacon": {
+            "title": "Canadian Bacon",
+            "year": 1995,
+            "genres": "Comedy|War",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTUwNDU0NzcwMl5BMl5BanBnXkFtZTcwNzk1NjAzNA@@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0109370",
+            "movieId": 157
+        },
+        "Desperado": {
+            "title": "Desperado",
+            "year": 1995,
+            "genres": "Action|Romance|Western",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYjA0NDMyYTgtMDgxOC00NGE0LWJkOTQtNDRjMjEzZmU0ZTQ3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0112851",
+            "movieId": 163
+        },
+        "Billy Madison": {
+            "title": "Billy Madison",
+            "year": 1995,
+            "genres": "Comedy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMzcyMjZmNjctNGNhMS00ZmQxLWFkNzQtYTIxYjVkYmU1NmNmXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0112508",
+            "movieId": 216
+        },
+        "Clerks": {
+            "title": "Clerks",
+            "year": 1994,
+            "genres": "Comedy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNzE1Njk0NmItNDhlMC00ZmFlLWI4ZTUtYTY4ZjgzNjkyMTU1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0109445",
+            "movieId": 223
+        },
+        "Dumb & Dumber (Dumb and Dumber)": {
+            "title": "Dumb & Dumber (Dumb and Dumber)",
+            "year": 1994,
+            "genres": "Adventure|Comedy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZDQwMjNiMTQtY2UwYy00NjhiLTk0ZWEtZWM5ZWMzNGFjNTVkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0109686",
+            "movieId": 231
+        },
+        "Ed Wood": {
+            "title": "Ed Wood",
+            "year": 1994,
+            "genres": "Comedy|Drama",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNTA5ZjdjNWUtZGUwNy00N2RhLWJiZmItYzFhYjU1NmYxNjY4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0109707",
+            "movieId": 235
+        },
+        "Star Wars: Episode IV - A New Hope": {
+            "title": "Star Wars: Episode IV - A New Hope",
+            "year": 1977,
+            "genres": "Action|Adventure|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BOTA5NjhiOTAtZWM0ZC00MWNhLThiMzEtZDFkOTk2OTU1ZDJkXkEyXkFqcGdeQXVyMTA4NDI1NTQx._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0076759",
+            "movieId": 260
+        },
+        "Pulp Fiction": {
+            "title": "Pulp Fiction",
+            "year": 1994,
+            "genres": "Comedy|Crime|Drama|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY150_CR1,0,101,150_.jpg",
+            "imdbId": "0110912",
+            "movieId": 296
+        },
+        "Stargate": {
+            "title": "Stargate",
+            "year": 1994,
+            "genres": "Action|Adventure|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYWEyYTQzNzQtZTg5OS00NDhkLTg1NjYtMzA5Y2MyYjYzNWQ5L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0111282",
+            "movieId": 316
+        },
+        "Tommy Boy": {
+            "title": "Tommy Boy",
+            "year": 1995,
+            "genres": "Comedy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNTMwZGU3MGUtZWE0Ni00YzExLWIyY2MtMmNmMDlmYTdmNzFkXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0114694",
+            "movieId": 333
+        },
+        "Clear and Present Danger": {
+            "title": "Clear and Present Danger",
+            "year": 1994,
+            "genres": "Action|Crime|Drama|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BM2NlMTk4MzMtZTRmMS00ZWM1LWFjZGUtNmRmYTZjZjg1OTBlXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0109444",
+            "movieId": 349
+        },
+        "Forrest Gump": {
+            "title": "Forrest Gump",
+            "year": 1994,
+            "genres": "Comedy|Drama|Romance|War",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY150_CR1,0,101,150_.jpg",
+            "imdbId": "0109830",
+            "movieId": 356
+        },
+        "Jungle Book, The": {
+            "title": "Jungle Book, The",
+            "year": 1967,
+            "genres": "Animation|Children|Comedy|Musical",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYmY1MTA3NmUtYzJmZC00YTFjLTk2NzktYTJhMWQ0ZTlkNzJjXkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0061852",
+            "movieId": 2078
+        },
+        "Mask, The": {
+            "title": "Mask, The",
+            "year": 1994,
+            "genres": "Action|Comedy|Crime|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BOWExYjI5MzktNTRhNi00Nzg2LThkZmQtYWVkYjRlYWI2MDQ4XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0110475",
+            "movieId": 367
+        },
+        "Blown Away": {
+            "title": "Blown Away",
+            "year": 1994,
+            "genres": "Action|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNjA4M2JhZWUtY2ZlNi00YzExLWE1YzEtNTY3Y2E2MzQwOTFjXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0109303",
+            "movieId": 423
+        },
+        "Dazed and Confused": {
+            "title": "Dazed and Confused",
+            "year": 1993,
+            "genres": "Comedy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTM5MDY5MDQyOV5BMl5BanBnXkFtZTgwMzM3NzMxMDE@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0106677",
+            "movieId": 441
+        },
+        "Fugitive, The": {
+            "title": "Fugitive, The",
+            "year": 1993,
+            "genres": "Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYmFmOGZjYTItYjY1ZS00OWRiLTk0NDgtMjQ5MzBkYWE2YWE0XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0106977",
+            "movieId": 457
+        },
+        "Jurassic Park": {
+            "title": "Jurassic Park",
+            "year": 1993,
+            "genres": "Action|Adventure|Sci-Fi|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0107290",
+            "movieId": 480
+        },
+        "Mrs. Doubtfire": {
+            "title": "Mrs. Doubtfire",
+            "year": 1993,
+            "genres": "Comedy|Drama",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMjExMDUzODE1N15BMl5BanBnXkFtZTgwNTU5NTYxMTE@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0107614",
+            "movieId": 500
+        },
+        "Schindler's List": {
+            "title": "Schindler's List",
+            "year": 1993,
+            "genres": "Drama|War",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0108052",
+            "movieId": 527
+        },
+        "So I Married an Axe Murderer": {
+            "title": "So I Married an Axe Murderer",
+            "year": 1993,
+            "genres": "Comedy|Romance|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BN2VjOTA4MDEtYmZiYy00MTJiLWEwZTItNzM4Y2IwMzdjNjgzXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0108174",
+            "movieId": 543
+        },
+        "Three Musketeers, The": {
+            "title": "Three Musketeers, The",
+            "year": 1993,
+            "genres": "Action|Adventure|Comedy|Romance",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMzc4OTJlMTgtMWE5MC00MDRlLWE2MDQtYTI4ZTAzNzUyZjM2XkEyXkFqcGdeQXVyNjExODE1MDc@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0108333",
+            "movieId": 552
+        },
+        "Tombstone": {
+            "title": "Tombstone",
+            "year": 1993,
+            "genres": "Action|Drama|Western",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BODRkYzA4MGItODE2MC00ZjkwLWI2NDEtYzU1NzFiZGU1YzA0XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0108358",
+            "movieId": 553
+        },
+        "Dances with Wolves": {
+            "title": "Dances with Wolves",
+            "year": 1990,
+            "genres": "Adventure|Drama|Western",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTY3OTI5NDczN15BMl5BanBnXkFtZTcwNDA0NDY3Mw@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0099348",
+            "movieId": 590
+        },
+        "Batman": {
+            "title": "Batman",
+            "year": 1989,
+            "genres": "Action|Crime|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0096895",
+            "movieId": 592
+        },
+        "Silence of the Lambs, The": {
+            "title": "Silence of the Lambs, The",
+            "year": 1991,
+            "genres": "Crime|Horror|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0102926",
+            "movieId": 593
+        },
+        "Pinocchio": {
+            "title": "Pinocchio",
+            "year": 1940,
+            "genres": "Animation|Children|Fantasy|Musical",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTU4Mzk3ODIyOF5BMl5BanBnXkFtZTgwODgyNzk2NjE@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0032910",
+            "movieId": 596
+        },
+        "Fargo": {
+            "title": "Fargo",
+            "year": 1996,
+            "genres": "Comedy|Crime|Drama|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNDJiZDgyZjctYmRjMS00ZjdkLTkwMTEtNGU1NDg3NDQ0Yzk1XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0116282",
+            "movieId": 608
+        },
+        "Mission: Impossible": {
+            "title": "Mission: Impossible",
+            "year": 1996,
+            "genres": "Action|Adventure|Mystery|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTc3NjI2MjU0Nl5BMl5BanBnXkFtZTgwNDk3ODYxMTE@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0117060",
+            "movieId": 648
+        },
+        "James and the Giant Peach": {
+            "title": "James and the Giant Peach",
+            "year": 1996,
+            "genres": "Adventure|Animation|Children|Fantasy|Musical",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTNkNWIwNGUtNTJlOC00NDU3LTk0NWEtNjNjNDM4NzRiNThkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0116683",
+            "movieId": 661
+        },
+        "Space Jam": {
+            "title": "Space Jam",
+            "year": 1996,
+            "genres": "Adventure|Animation|Children|Comedy|Fantasy|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYjA3ZmMwNTUtNGM2Ni00YjUyLWE5ZDYtY2Y4YzhmYzlhYWI2XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0117705",
+            "movieId": 673
+        },
+        "Rock, The": {
+            "title": "Rock, The",
+            "year": 1996,
+            "genres": "Action|Adventure|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZDJjOTE0N2EtMmRlZS00NzU0LWE0ZWQtM2Q3MWMxNjcwZjBhXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0117500",
+            "movieId": 733
+        },
+        "Twister": {
+            "title": "Twister",
+            "year": 1996,
+            "genres": "Action|Adventure|Romance|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BODExYTM0MzEtZGY2Yy00N2ExLTkwZjItNGYzYTRmMWZlOGEzXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0117998",
+            "movieId": 736
+        },
+        "Independence Day (a.k.a. ID4)": {
+            "title": "Independence Day (a.k.a. ID4)",
+            "year": 1996,
+            "genres": "Action|Adventure|Sci-Fi|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMGQwNDNkMmItYWY1Yy00YTZmLWE5OTAtODU0MGZmMzQ1NDdkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0116629",
+            "movieId": 780
+        },
+        "She's the One": {
+            "title": "She's the One",
+            "year": 1996,
+            "genres": "Comedy|Romance",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZTU0OWFjZTgtYmExNi00MDhiLTg1NmEtMTIxZDc4ZDNlOGU2XkEyXkFqcGdeQXVyNjMwMjk0MTQ@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0117628",
+            "movieId": 804
+        },
+        "Wizard of Oz, The": {
+            "title": "Wizard of Oz, The",
+            "year": 1939,
+            "genres": "Adventure|Children|Fantasy|Musical",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNjUyMTc4MDExMV5BMl5BanBnXkFtZTgwNDg0NDIwMjE@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0032138",
+            "movieId": 919
+        },
+        "Citizen Kane": {
+            "title": "Citizen Kane",
+            "year": 1941,
+            "genres": "Drama|Mystery",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYjBiOTYxZWItMzdiZi00NjlkLWIzZTYtYmFhZjhiMTljOTdkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0033467",
+            "movieId": 923
+        },
+        "Adventures of Robin Hood, The": {
+            "title": "Adventures of Robin Hood, The",
+            "year": 1938,
+            "genres": "Action|Adventure|Romance",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYjZjOTU3MTMtYTM5YS00YjZmLThmNmMtODcwOTM1NmRiMWM2XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0029843",
+            "movieId": 940
+        },
+        "Ghost and Mrs. Muir, The": {
+            "title": "Ghost and Mrs. Muir, The",
+            "year": 1947,
+            "genres": "Drama|Fantasy|Romance",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNzYxMjIyMmYtMDI2OS00YTgyLWExZWMtODdkZTk1NzRlODgzXkEyXkFqcGdeQXVyMTAwMzUyOTc@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0039420",
+            "movieId": 943
+        },
+        "Mr. Smith Goes to Washington": {
+            "title": "Mr. Smith Goes to Washington",
+            "year": 1939,
+            "genres": "Drama",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZTYwYjYxYzgtMDE1Ni00NzU4LWJlMTEtODQ5YmJmMGJhZjI5L2ltYWdlXkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0031679",
+            "movieId": 954
+        },
+        "Escape to Witch Mountain": {
+            "title": "Escape to Witch Mountain",
+            "year": 1975,
+            "genres": "Adventure|Children|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMzZjODA5NjctMGZlNC00YjNlLTg2NDQtNDE1YTc3YTMxYzBmXkEyXkFqcGdeQXVyMTEwODg2MDY@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0072951",
+            "movieId": 1009
+        },
+        "Winnie the Pooh and the Blustery Day": {
+            "title": "Winnie the Pooh and the Blustery Day",
+            "year": 1968,
+            "genres": "Animation|Children|Musical",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BODgyNjM3NWUtZDAxMi00NzRhLWE0NmMtMjIxYTY1MWJlZTQyXkEyXkFqcGdeQXVyNzY1NDgwNjQ@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0063819",
+            "movieId": 1023
+        },
+        "Three Caballeros, The": {
+            "title": "Three Caballeros, The",
+            "year": 1945,
+            "genres": "Animation|Children|Musical",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNTYzMmFmNjYtYzJmMy00ZGViLTlkNjItYjMwYzA3ZjRkZTBkXkEyXkFqcGdeQXVyNjI1Mjk4MTg@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0038166",
+            "movieId": 1024
+        },
+        "Sword in the Stone, The": {
+            "title": "Sword in the Stone, The",
+            "year": 1963,
+            "genres": "Animation|Children|Fantasy|Musical",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BODc2MjAyZDYtNWYwZi00YTQwLWE0ZDMtMjM2NTJmYWMxMmQ0XkEyXkFqcGdeQXVyNTQxMTIxMTk@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0057546",
+            "movieId": 1025
+        },
+        "Dumbo": {
+            "title": "Dumbo",
+            "year": 1941,
+            "genres": "Animation|Children|Drama|Musical",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMmU1NjQ3YjktZGMxYS00N2IwLTllZWQtOGNjYWE4MzgxNzk2XkEyXkFqcGdeQXVyODU2MDg1NzU@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0033563",
+            "movieId": 1029
+        },
+        "Pete's Dragon": {
+            "title": "Pete's Dragon",
+            "year": 1977,
+            "genres": "Adventure|Animation|Children|Musical",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMjJkMjcyOTktYTIwNC00MTY3LWE4ZTAtMTdlODg0NDE3YTQ1XkEyXkFqcGdeQXVyNjM1MTQ0NTQ@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0076538",
+            "movieId": 1030
+        },
+        "Bedknobs and Broomsticks": {
+            "title": "Bedknobs and Broomsticks",
+            "year": 1971,
+            "genres": "Adventure|Children|Musical",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTUxMTY3MTE5OF5BMl5BanBnXkFtZTgwNTQ0ODgxMzE@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0066817",
+            "movieId": 1031
+        },
+        "Alice in Wonderland": {
+            "title": "Alice in Wonderland",
+            "year": 1951,
+            "genres": "Adventure|Animation|Children|Fantasy|Musical",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTgyMjM2NTAxMF5BMl5BanBnXkFtZTgwNjU1NDc2MTE@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0043274",
+            "movieId": 1032
+        },
+        "That Thing You Do!": {
+            "title": "That Thing You Do!",
+            "year": 1996,
+            "genres": "Comedy|Drama",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BOWVmN2ZhZjgtZGEzMy00NDkxLWI5YWQtYTE2ZTk0YzIyMzc0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0117887",
+            "movieId": 1042
+        },
+        "Ghost and the Darkness, The": {
+            "title": "Ghost and the Darkness, The",
+            "year": 1996,
+            "genres": "Action|Adventure",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BOWIwMDIxMDktZTlhYS00YTU3LTg4ZTItNGI4NTU3ZTMzZTViXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0116409",
+            "movieId": 1049
+        },
+        "Swingers": {
+            "title": "Swingers",
+            "year": 1996,
+            "genres": "Comedy|Drama",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZjg1ZmViMmEtYzIxNi00MzJlLTk4MDktNTE2ZDkwMzEyMjBhXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0117802",
+            "movieId": 1060
+        },
+        "Willy Wonka & the Chocolate Factory": {
+            "title": "Willy Wonka & the Chocolate Factory",
+            "year": 1971,
+            "genres": "Children|Comedy|Fantasy|Musical",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZTllNDU0ZTItYTYxMC00OTI4LThlNDAtZjNiNzdhMWZiYjNmXkEyXkFqcGdeQXVyNzY1NDgwNjQ@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0067992",
+            "movieId": 1073
+        },
+        "Monty Python's Life of Brian": {
+            "title": "Monty Python's Life of Brian",
+            "year": 1979,
+            "genres": "Comedy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMDA1ZWI4ZDItOTRlYi00OTUxLWFlNWQtMzM5NDI0YjA4ZGI2XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0079470",
+            "movieId": 1080
+        },
+        "Reservoir Dogs": {
+            "title": "Reservoir Dogs",
+            "year": 1992,
+            "genres": "Crime|Mystery|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZmExNmEwYWItYmQzOS00YjA5LTk2MjktZjEyZDE1Y2QxNjA1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0105236",
+            "movieId": 1089
+        },
+        "Platoon": {
+            "title": "Platoon",
+            "year": 1986,
+            "genres": "Drama|War",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMzRjZjdlMjQtODVkYS00N2YzLWJlYWYtMGVlN2E5MWEwMWQzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0091763",
+            "movieId": 1090
+        },
+        "Basic Instinct": {
+            "title": "Basic Instinct",
+            "year": 1992,
+            "genres": "Crime|Mystery|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMzlmYTVlYjQtNDY5OS00ZDI5LWEwMTEtNGJjNTA3NTU2MmRjXkEyXkFqcGdeQXVyMTYyODkzNzU4._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0103772",
+            "movieId": 1092
+        },
+        "E.T. the Extra-Terrestrial": {
+            "title": "E.T. the Extra-Terrestrial",
+            "year": 1982,
+            "genres": "Children|Drama|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTQ2ODFlMDAtNzdhOC00ZDYzLWE3YTMtNDU4ZGFmZmJmYTczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0083866",
+            "movieId": 1097
+        },
+        "Abyss, The": {
+            "title": "Abyss, The",
+            "year": 1989,
+            "genres": "Action|Adventure|Sci-Fi|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYmU4NmUxZjEtYjY0OC00ZDAwLTg0MGQtMDRkNDk5NWQ0OTQ5XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0096754",
+            "movieId": 1127
+        },
+        "Monty Python and the Holy Grail": {
+            "title": "Monty Python and the Holy Grail",
+            "year": 1975,
+            "genres": "Adventure|Comedy|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BN2IyNTE4YzUtZWU0Mi00MGIwLTgyMmQtMzQ4YzQxYWNlYWE2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0071853",
+            "movieId": 1136
+        },
+        "Star Wars: Episode V - The Empire Strikes Back": {
+            "title": "Star Wars: Episode V - The Empire Strikes Back",
+            "year": 1980,
+            "genres": "Action|Adventure|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0080684",
+            "movieId": 1196
+        },
+        "Princess Bride, The": {
+            "title": "Princess Bride, The",
+            "year": 1987,
+            "genres": "Action|Adventure|Comedy|Fantasy|Romance",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYzdiOTVjZmQtNjAyNy00YjA2LTk5ZTAtNmJkMGQ5N2RmNjUxXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SY150_CR1,0,101,150_.jpg",
+            "imdbId": "0093779",
+            "movieId": 1197
+        },
+        "Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark)": {
+            "title": "Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark)",
+            "year": 1981,
+            "genres": "Action|Adventure",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNTU2ODkyY2MtMjU1NC00NjE1LWEzYjgtMWQ3MzRhMTE0NDc0XkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0082971",
+            "movieId": 1198
+        },
+        "Clockwork Orange, A": {
+            "title": "Clockwork Orange, A",
+            "year": 1971,
+            "genres": "Crime|Drama|Sci-Fi|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTY3MjM1Mzc4N15BMl5BanBnXkFtZTgwODM0NzAxMDE@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0066921",
+            "movieId": 1206
+        },
+        "Apocalypse Now": {
+            "title": "Apocalypse Now",
+            "year": 1979,
+            "genres": "Action|Drama|War",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYmQyNTA1ZGItNjZjMi00NzFlLWEzMWEtNWMwN2Q2MjJhYzEyXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0078788",
+            "movieId": 1208
+        },
+        "Star Wars: Episode VI - Return of the Jedi": {
+            "title": "Star Wars: Episode VI - Return of the Jedi",
+            "year": 1983,
+            "genres": "Action|Adventure|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0086190",
+            "movieId": 1210
+        },
+        "Goodfellas": {
+            "title": "Goodfellas",
+            "year": 1990,
+            "genres": "Crime|Drama",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0099685",
+            "movieId": 1213
+        },
+        "Alien": {
+            "title": "Alien",
+            "year": 1979,
+            "genres": "Horror|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BOGQzZTBjMjQtOTVmMS00NGE5LWEyYmMtOGQ1ZGZjNmRkYjFhXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0078748",
+            "movieId": 1214
+        },
+        "Psycho": {
+            "title": "Psycho",
+            "year": 1998,
+            "genres": "Crime|Horror|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNjQwMDczMmUtYjgzYy00NGRmLWFmMWEtNWVjMjgwNWVlMjlkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY150_CR1,0,101,150_.jpg",
+            "imdbId": "0155975",
+            "movieId": 2389
+        },
+        "Blues Brothers, The": {
+            "title": "Blues Brothers, The",
+            "year": 1980,
+            "genres": "Action|Comedy|Musical",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYTdlMDExOGUtN2I3MS00MjY5LWE1NTAtYzc3MzIxN2M3OWY1XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0080455",
+            "movieId": 1220
+        },
+        "Full Metal Jacket": {
+            "title": "Full Metal Jacket",
+            "year": 1987,
+            "genres": "Drama|War",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNzkxODk0NjEtYjc4Mi00ZDI0LTgyYjEtYzc1NDkxY2YzYTgyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0093058",
+            "movieId": 1222
+        },
+        "Henry V": {
+            "title": "Henry V",
+            "year": 1989,
+            "genres": "Action|Drama|Romance|War",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BODdlYzU0ZGYtNWQ1YS00Nzk4LTllZTItZTEyNjkxMWI5ODk4L2ltYWdlXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0097499",
+            "movieId": 1224
+        },
+        "Quiet Man, The": {
+            "title": "Quiet Man, The",
+            "year": 1952,
+            "genres": "Drama|Romance",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMWM1ZDhlM2MtNDNmMi00MDk4LTg5MjgtODE4ODk1MjYxOTIwXkEyXkFqcGdeQXVyNjc0MzMzNjA@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0045061",
+            "movieId": 1226
+        },
+        "Terminator, The": {
+            "title": "Terminator, The",
+            "year": 1984,
+            "genres": "Action|Sci-Fi|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYTViNzMxZjEtZGEwNy00MDNiLWIzNGQtZDY2MjQ1OWViZjFmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0088247",
+            "movieId": 1240
+        },
+        "Duck Soup": {
+            "title": "Duck Soup",
+            "year": 1933,
+            "genres": "Comedy|Musical|War",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYmYxZGU2NWYtNzQxZS00NmEyLWIzN2YtMDk5MWM0ODc5ZTE4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0023969",
+            "movieId": 1256
+        },
+        "Shining, The": {
+            "title": "Shining, The",
+            "year": 1980,
+            "genres": "Horror",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0081505",
+            "movieId": 1258
+        },
+        "Groundhog Day": {
+            "title": "Groundhog Day",
+            "year": 1993,
+            "genres": "Comedy|Fantasy|Romance",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZWIxNzM5YzQtY2FmMS00Yjc3LWI1ZjUtNGVjMjMzZTIxZTIxXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0107048",
+            "movieId": 1265
+        },
+        "Back to the Future": {
+            "title": "Back to the Future",
+            "year": 1985,
+            "genres": "Adventure|Comedy|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0088763",
+            "movieId": 1270
+        },
+        "Highlander": {
+            "title": "Highlander",
+            "year": 1986,
+            "genres": "Action|Adventure|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNzUyZjdhOWEtNzA3NS00ZTgwLWI4YzMtNzcwYTU5MzU4ODQzXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0091203",
+            "movieId": 1275
+        },
+        "Young Frankenstein": {
+            "title": "Young Frankenstein",
+            "year": 1974,
+            "genres": "Comedy|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTEwNjg2MjM2ODFeQTJeQWpwZ15BbWU4MDQ1MDU5OTEx._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0072431",
+            "movieId": 1278
+        },
+        "Fantasia": {
+            "title": "Fantasia",
+            "year": 1940,
+            "genres": "Animation|Children|Fantasy|Musical",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMjAxMTI1Njk3OF5BMl5BanBnXkFtZTgwNjkzODk4NTE@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0032455",
+            "movieId": 1282
+        },
+        "Indiana Jones and the Last Crusade": {
+            "title": "Indiana Jones and the Last Crusade",
+            "year": 1989,
+            "genres": "Action|Adventure",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BY2Q0ODg4ZmItNDZiYi00ZWY5LTg2NzctNmYwZjA5OThmNzE1XkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0097576",
+            "movieId": 1291
+        },
+        "Pink Floyd: The Wall": {
+            "title": "Pink Floyd: The Wall",
+            "year": 1982,
+            "genres": "Drama|Musical",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMzYwMDZlZDktNGVlMC00OWVlLWI0MTktN2UwNTUxOWI1NjJhXkEyXkFqcGdeQXVyMzg1ODEwNQ@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0084503",
+            "movieId": 1298
+        },
+        "Nosferatu (Nosferatu, eine Symphonie des Grauens)": {
+            "title": "Nosferatu (Nosferatu, eine Symphonie des Grauens)",
+            "year": 1922,
+            "genres": "Horror",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTAxYjEyMTctZTg3Ni00MGZmLWIxMmMtOGM2NTFiY2U3MmExXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0013442",
+            "movieId": 1348
+        },
+        "Batman Returns": {
+            "title": "Batman Returns",
+            "year": 1992,
+            "genres": "Action|Crime",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BOGZmYzVkMmItM2NiOS00MDI3LWI4ZWQtMTg0YWZkODRkMmViXkEyXkFqcGdeQXVyODY0NzcxNw@@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0103776",
+            "movieId": 1377
+        },
+        "Sneakers": {
+            "title": "Sneakers",
+            "year": 1992,
+            "genres": "Action|Comedy|Crime|Drama|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZTg0MTU0Y2YtNWEyNC00NDU3LWJhNjYtZGIzMWI0YWMwMTdhXkEyXkFqcGdeQXVyNjMwMjk0MTQ@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0105435",
+            "movieId": 1396
+        },
+        "Last of the Mohicans, The": {
+            "title": "Last of the Mohicans, The",
+            "year": 1992,
+            "genres": "Action|Romance|War|Western",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZDNiYmRkNDYtOWU1NC00NmMxLWFkNmUtMGI5NTJjOTJmYTM5XkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0104691",
+            "movieId": 1408
+        },
+        "McHale's Navy": {
+            "title": "McHale's Navy",
+            "year": 1997,
+            "genres": "Comedy|War",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMmU2NjcwYmMtZmZhYy00NjQ0LTkyZTktM2EwMWU2M2Y3ZmI4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0119640",
+            "movieId": 1445
+        },
+        "Best Men": {
+            "title": "Best Men",
+            "year": 1997,
+            "genres": "Action|Comedy|Crime|Drama",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTkyNDg2NzM0N15BMl5BanBnXkFtZTcwMjEwMTAyMQ@@._V1_SY150_CR1,0,101,150_.jpg",
+            "imdbId": "0118702",
+            "movieId": 1473
+        },
+        "Grosse Pointe Blank": {
+            "title": "Grosse Pointe Blank",
+            "year": 1997,
+            "genres": "Comedy|Crime|Romance",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMmRhYTg0N2QtMWZhMS00OWQwLTk1ZmEtMmUyMTY0NTE4YWUwXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0119229",
+            "movieId": 1500
+        },
+        "Austin Powers: International Man of Mystery": {
+            "title": "Austin Powers: International Man of Mystery",
+            "year": 1997,
+            "genres": "Action|Adventure|Comedy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTRhZTY0MDItY2I1Yi00MGE3LTk1ZDEtMjA0ZGZhNDQyNGU0XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0118655",
+            "movieId": 1517
+        },
+        "Con Air": {
+            "title": "Con Air",
+            "year": 1997,
+            "genres": "Action|Adventure|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMGZmNGIxMTYtMmVjMy00YzhkLWIyOTktNTExZGFiYjNiNzdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0118880",
+            "movieId": 1552
+        },
+        "Face/Off": {
+            "title": "Face/Off",
+            "year": 1997,
+            "genres": "Action|Crime|Drama|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYzFjNzIxMmEtMzY5NS00YTgzLTkwYWEtN2FjMmY0NmNkZWY3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0119094",
+            "movieId": 1573
+        },
+        "Men in Black (a.k.a. MIB)": {
+            "title": "Men in Black (a.k.a. MIB)",
+            "year": 1997,
+            "genres": "Action|Comedy|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BOTlhYTVkMDktYzIyNC00NzlkLTlmN2ItOGEyMWQ4OTA2NDdmXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0119654",
+            "movieId": 1580
+        },
+        "Conan the Barbarian": {
+            "title": "Conan the Barbarian",
+            "year": 1982,
+            "genres": "Action|Adventure|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMWYwZGU1N2UtNTU5My00ZTVkLThjZDktZTQzZmEyMzZjMTdmXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0082198",
+            "movieId": 1587
+        },
+        "L.A. Confidential": {
+            "title": "L.A. Confidential",
+            "year": 1997,
+            "genres": "Crime|Film-Noir|Mystery|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMDQ2YzEyZGItYWRhOS00MjBmLTkzMDUtMTdjYzkyMmQxZTJlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0119488",
+            "movieId": 1617
+        },
+        "Kiss the Girls": {
+            "title": "Kiss the Girls",
+            "year": 1997,
+            "genres": "Crime|Drama|Mystery|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMjE2MWE1ZDYtNjNkYS00YjZmLWJkZjctOTYzYTVjMDFiN2M5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0119468",
+            "movieId": 1620
+        },
+        "Game, The": {
+            "title": "Game, The",
+            "year": 1997,
+            "genres": "Drama|Mystery|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNWQ2ODFhNWItNTA4NS00MzkyLTgyYzUtZjlhYWE5MmEzY2Q1XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0119174",
+            "movieId": 1625
+        },
+        "I Know What You Did Last Summer": {
+            "title": "I Know What You Did Last Summer",
+            "year": 1997,
+            "genres": "Horror|Mystery|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BY2JlY2JlYTYtNmI3NC00YTk3LWEyYTgtNzg0ODJlYzViNjc4XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0119345",
+            "movieId": 1644
+        },
+        "Starship Troopers": {
+            "title": "Starship Troopers",
+            "year": 1997,
+            "genres": "Action|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNWExNzg3MmMtYjc3MS00MzFlLWJiOWQtNWYxZTgxNjhlZTQ2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0120201",
+            "movieId": 1676
+        },
+        "Big Lebowski, The": {
+            "title": "Big Lebowski, The",
+            "year": 1998,
+            "genres": "Comedy|Crime",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMzliZDk0NjctNjhlOC00MWEyLWI3OWYtNjA5ZDYxMTMzNTc5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0118715",
+            "movieId": 1732
+        },
+        "Wedding Singer, The": {
+            "title": "Wedding Singer, The",
+            "year": 1998,
+            "genres": "Comedy|Romance",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYjM5YTQ0ZGYtMWExZi00MTFmLTg0YjUtZDcyMGNiYzE5MmNmL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0120888",
+            "movieId": 1777
+        },
+        "Welcome to Woop-Woop": {
+            "title": "Welcome to Woop-Woop",
+            "year": 1997,
+            "genres": "Comedy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BODg5NDE1NTk5M15BMl5BanBnXkFtZTcwNDU1Nzg0NQ@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0120491",
+            "movieId": 1793
+        },
+        "Newton Boys, The": {
+            "title": "Newton Boys, The",
+            "year": 1998,
+            "genres": "Crime|Drama",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMWZmZDMwMjUtYjZiMC00ZWI4LWIwMjQtY2E3NzBlYzk1OWYxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0120769",
+            "movieId": 1804
+        },
+        "Wild Things": {
+            "title": "Wild Things",
+            "year": 1998,
+            "genres": "Crime|Drama|Mystery|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BODMyYTlkNWYtODAzMC00ZjFiLWE3YjctMGUyMzM1MDk3ZDFlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0120890",
+            "movieId": 1805
+        },
+        "Small Soldiers": {
+            "title": "Small Soldiers",
+            "year": 1998,
+            "genres": "Animation|Children|Fantasy|War",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNzhiZmZkYjQtMTFlZi00YmQ2LTg5NGEtM2M4ZTg4ZjAyNzI1L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY150_CR4,0,101,150_.jpg",
+            "imdbId": "0122718",
+            "movieId": 1920
+        },
+        "All Quiet on the Western Front": {
+            "title": "All Quiet on the Western Front",
+            "year": 1930,
+            "genres": "Action|Drama|War",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMDdlMzRjM2MtNjcxNy00MjgyLTkyZmYtY2ExODM0OTBkMzI0XkEyXkFqcGdeQXVyMzg1ODEwNQ@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0020629",
+            "movieId": 1927
+        },
+        "Rocky": {
+            "title": "Rocky",
+            "year": 1976,
+            "genres": "Drama",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNTBkMjg2MjYtYTZjOS00ODQ0LTg0MDEtM2FiNmJmOGU1NGEwXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0075148",
+            "movieId": 1954
+        },
+        "Labyrinth": {
+            "title": "Labyrinth",
+            "year": 1986,
+            "genres": "Adventure|Fantasy|Musical",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMjM2MDE4OTQwOV5BMl5BanBnXkFtZTgwNjgxMTg2NzE@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0091369",
+            "movieId": 1967
+        },
+        "Lethal Weapon": {
+            "title": "Lethal Weapon",
+            "year": 1987,
+            "genres": "Action|Comedy|Crime|Drama",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZTllNWNlZjctMWQwMS00ZDc3LTg5ZjMtNzhmNzhjMmVhYTFlXkEyXkFqcGdeQXVyNTc1NTQxODI@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0093409",
+            "movieId": 2000
+        },
+        "Goonies, The": {
+            "title": "Goonies, The",
+            "year": 1985,
+            "genres": "Action|Adventure|Children|Comedy|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BOGNmMTZlNWItZjVmNy00Njg3LWI2YTEtNDUxNjM0ZjBmNzFhXkEyXkFqcGdeQXVyMzY2MjczNTQ@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0089218",
+            "movieId": 2005
+        },
+        "Back to the Future Part III": {
+            "title": "Back to the Future Part III",
+            "year": 1990,
+            "genres": "Adventure|Comedy|Sci-Fi|Western",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYjhlMGYxNmMtOWFmMi00Y2M2LWE5NWYtZTdlMDRlMGEzMDA3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0099088",
+            "movieId": 2012
+        },
+        "Bambi": {
+            "title": "Bambi",
+            "year": 1942,
+            "genres": "Animation|Children|Drama",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BY2JhMTJmYjYtNTVkYi00OWE3LWJlMjEtOWI4MTFkMjJhMmQ3XkEyXkFqcGdeQXVyNzY1NDgwNjQ@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0034492",
+            "movieId": 2018
+        },
+        "Saving Private Ryan": {
+            "title": "Saving Private Ryan",
+            "year": 1998,
+            "genres": "Action|Drama|War",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0120815",
+            "movieId": 2028
+        },
+        "Black Cauldron, The": {
+            "title": "Black Cauldron, The",
+            "year": 1985,
+            "genres": "Adventure|Animation|Children|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNDdiZjQ1NDctZWQ2Mi00ZTJhLWIxYmYtYzdjYTcxMjYwMjRhXkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0088814",
+            "movieId": 2033
+        },
+        "Flight of the Navigator": {
+            "title": "Flight of the Navigator",
+            "year": 1986,
+            "genres": "Adventure|Children|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMjUwNmY4ZmYtMzM2OS00N2UxLWFkMWEtZmI0ODRlNWRmM2MwXkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0091059",
+            "movieId": 2046
+        },
+        "Great Mouse Detective, The": {
+            "title": "Great Mouse Detective, The",
+            "year": 1986,
+            "genres": "Action|Animation|Children|Crime",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMDUzMTliZDYtMmRjZS00Zjk3LWIwZjEtZjc4N2NjYjdmY2FjXkEyXkFqcGdeQXVyMjA0MDQ0Mjc@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0091149",
+            "movieId": 2048
+        },
+        "Honey, I Shrunk the Kids": {
+            "title": "Honey, I Shrunk the Kids",
+            "year": 1989,
+            "genres": "Adventure|Children|Comedy|Fantasy|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BOTQ1NTg4MDAtOGU0OS00ZGQwLTliZjQtNDEzZjAzZGI5MjFjXkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0097523",
+            "movieId": 2054
+        },
+        "Negotiator, The": {
+            "title": "Negotiator, The",
+            "year": 1998,
+            "genres": "Action|Crime|Drama|Mystery|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BOGE1YTI2NjItNDAyYy00YzI3LTlmNDUtYWU0ZmFlNWE3N2ViL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0120768",
+            "movieId": 2058
+        },
+        "Rescuers, The": {
+            "title": "Rescuers, The",
+            "year": 1977,
+            "genres": "Adventure|Animation|Children|Crime|Drama",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMjMwNDU4MjQtNGVkMi00YTdlLTk2NTgtMjRjYzM3YjZkN2ZmL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0076618",
+            "movieId": 2090
+        },
+        "Return to Oz": {
+            "title": "Return to Oz",
+            "year": 1985,
+            "genres": "Adventure|Children|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNmM1YmM1NjAtNTlhMC00YjJiLTlkNjctZmVjYjIyMTRiMzBlXkEyXkFqcGdeQXVyMjM0ODk5MDU@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0089908",
+            "movieId": 2093
+        },
+        "Rocketeer, The": {
+            "title": "Rocketeer, The",
+            "year": 1991,
+            "genres": "Action|Adventure|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BN2ZiMjkwNWYtZWRjNy00YTYxLWI1ZWYtODI0NTA5YTg4ZDIxXkEyXkFqcGdeQXVyNDA5ODIzMDk@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0102803",
+            "movieId": 2094
+        },
+        "Sleeping Beauty": {
+            "title": "Sleeping Beauty",
+            "year": 1959,
+            "genres": "Animation|Children|Musical",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BOTJmZjA3MjMtMWNmZS00YTliLWFhMWUtZDU2NGJhNTlmY2ZkL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0053285",
+            "movieId": 2096
+        },
+        "Song of the South": {
+            "title": "Song of the South",
+            "year": 1946,
+            "genres": "Adventure|Animation|Children|Musical",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMjU3ZTgzMjQtZDBhMS00ZmRlLTliM2ItOTE1MmEzOWRkZTIzXkEyXkFqcGdeQXVyNzY1NDgwNjQ@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0038969",
+            "movieId": 2099
+        },
+        "Tron": {
+            "title": "Tron",
+            "year": 1982,
+            "genres": "Action|Adventure|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZjgxYzk3NjItNDliMC00YzE5LWEzZDQtZjJjZWUyNjE2MGFkXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0084827",
+            "movieId": 2105
+        },
+        "Indiana Jones and the Temple of Doom": {
+            "title": "Indiana Jones and the Temple of Doom",
+            "year": 1984,
+            "genres": "Action|Adventure|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYzgzMTIzNzctNmNiZC00ZDYyLWJjNzktMmQ2MDM2ZDkwZGVhXkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0087469",
+            "movieId": 2115
+        },
+        "Lord of the Rings, The": {
+            "title": "Lord of the Rings, The",
+            "year": 1978,
+            "genres": "Adventure|Animation|Children|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BOGMyNWJhZmYtNGQxYi00Y2ZjLWJmNjktNTgzZWJjOTg4YjM3L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0077869",
+            "movieId": 2116
+        },
+        "Charlotte's Web": {
+            "title": "Charlotte's Web",
+            "year": 1973,
+            "genres": "Animation|Children",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYWVmZjNkOWQtZmI1MC00NDA4LWJjN2ItZTFmMGI0NGFkNmNhXkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0070016",
+            "movieId": 2137
+        },
+        "Secret of NIMH, The": {
+            "title": "Secret of NIMH, The",
+            "year": 1982,
+            "genres": "Adventure|Animation|Children|Drama",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNDJlM2E1M2QtNTVmNi00MzNhLTlmZTgtMGM0YjYzYzhjM2JmXkEyXkFqcGdeQXVyNTkxMzEwMzU@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0084649",
+            "movieId": 2139
+        },
+        "American Tail, An": {
+            "title": "American Tail, An",
+            "year": 1986,
+            "genres": "Adventure|Animation|Children|Comedy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BOGNjODEyNDgtYWNiYi00NDEwLWI2YTMtM2JmZWYyNjg2ZTczXkEyXkFqcGdeQXVyMzczMzE2ODM@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0090633",
+            "movieId": 2141
+        },
+        "Legend": {
+            "title": "Legend",
+            "year": 1985,
+            "genres": "Adventure|Fantasy|Romance",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNmE3ZDc2MWYtNmJiMC00ZjhlLWEzODUtMzE0NzMwMTU4NmQxXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0089469",
+            "movieId": 2143
+        },
+        "NeverEnding Story, The": {
+            "title": "NeverEnding Story, The",
+            "year": 1984,
+            "genres": "Adventure|Children|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BM2YwNWExYjItODZmOC00MTRjLWFlYmEtODFmNGI5M2E5NzYxXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0088323",
+            "movieId": 2161
+        },
+        "Beetlejuice": {
+            "title": "Beetlejuice",
+            "year": 1988,
+            "genres": "Comedy|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZDdmNjBlYTctNWU0MC00ODQxLWEzNDQtZGY1NmRhYjNmNDczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0094721",
+            "movieId": 2174
+        },
+        "Willow": {
+            "title": "Willow",
+            "year": 1988,
+            "genres": "Action|Adventure|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNTliMTA3ZTUtYzJkMC00M2UzLTllYmItNjc1MzFhOTJmMmJjXkEyXkFqcGdeQXVyOTYyMTY2NzQ@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0096446",
+            "movieId": 2193
+        },
+        "Toys": {
+            "title": "Toys",
+            "year": 1992,
+            "genres": "Comedy|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZWFmMTllM2EtZTNlOC00NGY3LTg1YWItZGIzOTU3Mzk3YmNkL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0105629",
+            "movieId": 2253
+        },
+        "Few Good Men, A": {
+            "title": "Few Good Men, A",
+            "year": 1992,
+            "genres": "Crime|Drama|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMmRlZDQ1MmUtMzE2Yi00YTkxLTk1MGMtYmIyYWQwODcxYzRlXkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0104257",
+            "movieId": 2268
+        },
+        "Rush Hour": {
+            "title": "Rush Hour",
+            "year": 1998,
+            "genres": "Action|Comedy|Crime|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYWM2NDZmYmYtNzlmZC00M2MyLWJmOGUtMjhiYmQ2OGU1YTE1L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0120812",
+            "movieId": 2273
+        },
+        "Edward Scissorhands": {
+            "title": "Edward Scissorhands",
+            "year": 1990,
+            "genres": "Drama|Fantasy|Romance",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMWY2MGRkNjgtZDczNi00YWJjLTkwNmUtMTY0NTE5ZDhkZjgwXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0099487",
+            "movieId": 2291
+        },
+        "American History X": {
+            "title": "American History X",
+            "year": 1998,
+            "genres": "Crime|Drama",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZTJhN2FkYWEtMGI0My00YWM4LWI2MjAtM2UwNjY4MTI2ZTQyXkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0120586",
+            "movieId": 2329
+        },
+        "I Still Know What You Did Last Summer": {
+            "title": "I Still Know What You Did Last Summer",
+            "year": 1998,
+            "genres": "Horror|Mystery|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNzMwM2ZhZjktZTMwMS00NzA2LWIyMDctMGZhNjNiYjQ4NTJmXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0130018",
+            "movieId": 2338
+        },
+        "Enemy of the State": {
+            "title": "Enemy of the State",
+            "year": 1998,
+            "genres": "Action|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMWI0Y2NhMzMtYTE5ZS00MDlhLTg0ZjEtMjAwZmEwNTc0ODc2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0120660",
+            "movieId": 2353
+        },
+        "King Kong": {
+            "title": "King Kong",
+            "year": 1933,
+            "genres": "Action|Adventure|Fantasy|Horror",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZTY3YjYxZGQtMTM2YS00ZmYwLWFlM2QtOWFlMTU1NTAyZDQ2XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0024216",
+            "movieId": 2366
+        },
+        "Very Bad Things": {
+            "title": "Very Bad Things",
+            "year": 1998,
+            "genres": "Comedy|Crime",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNGEyZDYzMTktODYzZi00ZWJlLWE0NzktODVhNGM2OGZmMjFjXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0124198",
+            "movieId": 2387
+        },
+        "Rushmore": {
+            "title": "Rushmore",
+            "year": 1998,
+            "genres": "Comedy|Drama",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BODVhNjAzM2EtMzcyMi00YzA2LWIzMTEtNDYyZTk4MWU4YjBjXkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0128445",
+            "movieId": 2395
+        },
+        "Romancing the Stone": {
+            "title": "Romancing the Stone",
+            "year": 1984,
+            "genres": "Action|Adventure|Comedy|Romance",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMWIwNWNmMWMtYzc4MC00ZTRhLTk1MDUtYTk3OGY0YTQ1NTUxXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0088011",
+            "movieId": 2406
+        },
+        "Young Sherlock Holmes": {
+            "title": "Young Sherlock Holmes",
+            "year": 1985,
+            "genres": "Action|Adventure|Children|Fantasy|Mystery|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNmE0NTQ5ZjItN2MzNC00NjBhLTg0ZjYtYzFiMzFlMjhjNmNiXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0090357",
+            "movieId": 2414
+        },
+        "Thin Red Line, The": {
+            "title": "Thin Red Line, The",
+            "year": 1998,
+            "genres": "Action|Drama|War",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYjEzMTM2NjAtNWFmZC00MTVlLTgyMmQtMGQyNTFjZDk5N2NmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0120863",
+            "movieId": 2427
+        },
+        "Howard the Duck": {
+            "title": "Howard the Duck",
+            "year": 1986,
+            "genres": "Adventure|Comedy|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZWQ5Y2FmMmItZjYzNC00Yzc5LWE0ZjYtMTI4YTA1ZGJkZjgyXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0091225",
+            "movieId": 2450
+        },
+        "Texas Chainsaw Massacre, The": {
+            "title": "Texas Chainsaw Massacre, The",
+            "year": 1974,
+            "genres": "Horror",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZDI3OWE0ZWMtNGJjOS00N2E4LWFiOTAtZjQ4OTNiNzIwN2NkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0072271",
+            "movieId": 2459
+        },
+        "Crocodile Dundee": {
+            "title": "Crocodile Dundee",
+            "year": 1986,
+            "genres": "Adventure|Comedy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZjNlMTQ1MzQtMjNjNS00MWY4LTgxZTgtM2M5NThkMDg4N2ViXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0090555",
+            "movieId": 2470
+        },
+        "\u00a1Three Amigos!": {
+            "title": "\u00a1Three Amigos!",
+            "year": 1986,
+            "genres": "Comedy|Western",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNTE5NDQ1NTMyNl5BMl5BanBnXkFtZTcwNjY5MDQ3NA@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0092086",
+            "movieId": 2478
+        },
+        "20 Dates": {
+            "title": "20 Dates",
+            "year": 1998,
+            "genres": "Comedy|Romance",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYWM5ZGIwYTQtOWU4Ny00ZTAxLTg3ZGQtNTg4Mjg3NjEzNjg1XkEyXkFqcGdeQXVyNjMwMjk0MTQ@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0138987",
+            "movieId": 2492
+        },
+        "Office Space": {
+            "title": "Office Space",
+            "year": 1999,
+            "genres": "Comedy|Crime",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BOTA5MzQ3MzI1NV5BMl5BanBnXkFtZTgwNTcxNTYxMTE@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0151804",
+            "movieId": 2502
+        },
+        "Logan's Run": {
+            "title": "Logan's Run",
+            "year": 1976,
+            "genres": "Action|Adventure|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZjFiY2IyMmItNmUwZi00ZGYxLThiZGItMWZiZjE0NGVhNWNmXkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0074812",
+            "movieId": 2528
+        },
+        "Planet of the Apes": {
+            "title": "Planet of the Apes",
+            "year": 1968,
+            "genres": "Action|Drama|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTg0NjUwMzg5NF5BMl5BanBnXkFtZTgwNDQ0NjcwMTE@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0063442",
+            "movieId": 2529
+        },
+        "Lock, Stock & Two Smoking Barrels": {
+            "title": "Lock, Stock & Two Smoking Barrels",
+            "year": 1998,
+            "genres": "Comedy|Crime|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTAyN2JmZmEtNjAyMy00NzYwLThmY2MtYWQ3OGNhNjExMmM4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0120735",
+            "movieId": 2542
+        },
+        "Matrix, The": {
+            "title": "Matrix, The",
+            "year": 1999,
+            "genres": "Action|Sci-Fi|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0133093",
+            "movieId": 2571
+        },
+        "Go": {
+            "title": "Go",
+            "year": 1999,
+            "genres": "Comedy|Crime",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNDczYTcyN2EtYjM1NC00YjI3LWE4ZWItMGFlNmEwOTAxYjdiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0139239",
+            "movieId": 2580
+        },
+        "SLC Punk!": {
+            "title": "SLC Punk!",
+            "year": 1998,
+            "genres": "Comedy|Drama",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYTE2Y2EyMzAtMmJhYS00YTI2LTk4MTAtNmVmNWY2ZWI3MGI4XkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0133189",
+            "movieId": 2596
+        },
+        "Dick Tracy": {
+            "title": "Dick Tracy",
+            "year": 1990,
+            "genres": "Action|Crime",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMzA5MDg5ZDAtOWE1YS00Nzg2LTk5NzUtMDY3ZDZlN2U2M2ZlXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0099422",
+            "movieId": 2616
+        },
+        "Mummy, The": {
+            "title": "Mummy, The",
+            "year": 1999,
+            "genres": "Action|Adventure|Comedy|Fantasy|Horror|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BOTJiYjBhZDgtMjhiOC00MTIzLThlNGMtMmI1NjIwM2M3YTI5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0120616",
+            "movieId": 2617
+        },
+        "Star Wars: Episode I - The Phantom Menace": {
+            "title": "Star Wars: Episode I - The Phantom Menace",
+            "year": 1999,
+            "genres": "Action|Adventure|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYTRhNjcwNWQtMGJmMi00NmQyLWE2YzItODVmMTdjNWI0ZDA2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0120915",
+            "movieId": 2628
+        },
+        "Superman": {
+            "title": "Superman",
+            "year": 1978,
+            "genres": "Action|Adventure|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMzA0YWMwMTUtMTVhNC00NjRkLWE2ZTgtOWEzNjJhYzNiMTlkXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0078346",
+            "movieId": 2640
+        },
+        "Superman II": {
+            "title": "Superman II",
+            "year": 1980,
+            "genres": "Action|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BODk2NjgzNTEtYzZhZC00ZTBkLTllMGQtMmMxMzU1NDRkM2RlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0081573",
+            "movieId": 2641
+        },
+        "Dracula": {
+            "title": "Dracula",
+            "year": 1931,
+            "genres": "Horror",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZDQzMmIxYTItOTJkMi00YzU1LWJkNGEtYWE1NjhiNWU5YmNkXkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0021814",
+            "movieId": 2644
+        },
+        "Frankenstein": {
+            "title": "Frankenstein",
+            "year": 1931,
+            "genres": "Drama|Horror|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTQ0Njc1MjM0OF5BMl5BanBnXkFtZTgwNTY2NTUyMjE@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0021884",
+            "movieId": 2648
+        },
+        "Wolf Man, The": {
+            "title": "Wolf Man, The",
+            "year": 1941,
+            "genres": "Drama|Fantasy|Horror",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BODRmMDBjMTYtZmJiZi00Mzk3LWFhZDAtMDExNDFhMWQzNzEyXkEyXkFqcGdeQXVyNDY2MTk1ODk@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0034398",
+            "movieId": 2654
+        },
+        "Rocky Horror Picture Show, The": {
+            "title": "Rocky Horror Picture Show, The",
+            "year": 1975,
+            "genres": "Comedy|Horror|Musical|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BOGIzYjM3YzMtMjk5ZS00NDY2LTllMjEtNjYwZjhmMDNhMDBkXkEyXkFqcGdeQXVyODUzMjQxMTA@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0073629",
+            "movieId": 2657
+        },
+        "Run Lola Run (Lola rennt)": {
+            "title": "Run Lola Run (Lola rennt)",
+            "year": 1998,
+            "genres": "Action|Crime",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMDg5MTQ1YjUtOGQzNi00YjM1LThjNzktNjE2YzMxNDU1YTdiXkEyXkFqcGdeQXVyMTUyOTc1NDYz._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0130827",
+            "movieId": 2692
+        },
+        "South Park: Bigger, Longer and Uncut": {
+            "title": "South Park: Bigger, Longer and Uncut",
+            "year": 1999,
+            "genres": "Animation|Comedy|Musical",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BOGE0ZWI0YzAtY2NkZi00YjkyLWIzYWEtNTJmMzJjODllNjdjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0158983",
+            "movieId": 2700
+        },
+        "Ghostbusters (a.k.a. Ghost Busters)": {
+            "title": "Ghostbusters (a.k.a. Ghost Busters)",
+            "year": 1984,
+            "genres": "Action|Comedy|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTkxMjYyNzgwMl5BMl5BanBnXkFtZTgwMTE3MjYyMTE@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0087332",
+            "movieId": 2716
+        },
+        "Iron Giant, The": {
+            "title": "Iron Giant, The",
+            "year": 1999,
+            "genres": "Adventure|Animation|Children|Drama|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYzBjZTNkMzQtZmNkOC00Yzk0LTljMjktZjk3YWVlZjY3NTk2XkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0129167",
+            "movieId": 2761
+        },
+        "Big": {
+            "title": "Big",
+            "year": 1988,
+            "genres": "Comedy|Drama|Fantasy|Romance",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMDQ1ODM5MTMtMjAwYi00ZGUxLTliNTMtN2ZhODAwMjVhMTRlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0094737",
+            "movieId": 2797
+        },
+        "13th Warrior, The": {
+            "title": "13th Warrior, The",
+            "year": 1999,
+            "genres": "Action|Adventure|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNDZhZDk0ZTktZmNhMC00YTU1LWEwY2YtZmIyMWM5MTNlNDEwXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0120657",
+            "movieId": 2826
+        },
+        "American Beauty": {
+            "title": "American Beauty",
+            "year": 1999,
+            "genres": "Drama|Romance",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNTBmZWJkNjctNDhiNC00MGE2LWEwOTctZTk5OGVhMWMyNmVhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0169547",
+            "movieId": 2858
+        },
+        "Excalibur": {
+            "title": "Excalibur",
+            "year": 1981,
+            "genres": "Adventure|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNmI4MDU0NDUtZTNmZC00YTYwLTk3NzgtMGFmYjg3N2VjODczXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0082348",
+            "movieId": 2872
+        },
+        "Gulliver's Travels": {
+            "title": "Gulliver's Travels",
+            "year": 1939,
+            "genres": "Adventure|Animation|Children",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNWIyOTBjMWQtNWQ2Zi00MTcxLTk1NjYtODFlNjc5NDAzMDVmXkEyXkFqcGdeQXVyNTkxMzEwMzU@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0031397",
+            "movieId": 2899
+        },
+        "Total Recall": {
+            "title": "Total Recall",
+            "year": 1990,
+            "genres": "Action|Adventure|Sci-Fi|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYzU1YmJjMGEtMjY4Yy00MTFlLWE3NTUtNzI3YjkwZTMxZjZmXkEyXkFqcGdeQXVyNDc2NjEyMw@@._V1_SY150_SX101_.jpg",
+            "imdbId": "0100802",
+            "movieId": 2916
+        },
+        "Dirty Dozen, The": {
+            "title": "Dirty Dozen, The",
+            "year": 1967,
+            "genres": "Action|Drama|War",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BM2Y1ZTI0NzktYzU3MS00YmE1LThkY2EtMDc0NGYxNTNlZDA5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0061578",
+            "movieId": 2944
+        },
+        "Goldfinger": {
+            "title": "Goldfinger",
+            "year": 1964,
+            "genres": "Action|Adventure|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTQ2MzE0OTU3NV5BMl5BanBnXkFtZTcwNjQxNTgzNA@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0058150",
+            "movieId": 2947
+        },
+        "From Russia with Love": {
+            "title": "From Russia with Love",
+            "year": 1963,
+            "genres": "Action|Adventure|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMDU5ZWMxZjctZWNjNi00OGYxLWI0MDEtZmJhYTJkMmEyMTIyXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0057076",
+            "movieId": 2948
+        },
+        "Dr. No": {
+            "title": "Dr. No",
+            "year": 1962,
+            "genres": "Action|Adventure|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNWNjNGU5ZjUtMzc0MC00MWY5LTkxMGUtMjcxZmM2MDYzYzQ4XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0055928",
+            "movieId": 2949
+        },
+        "Fight Club": {
+            "title": "Fight Club",
+            "year": 1999,
+            "genres": "Action|Crime|Drama|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BODQ0OWJiMzktYjNlYi00MzcwLThlZWMtMzRkYTY4ZDgxNzgxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0137523",
+            "movieId": 2959
+        },
+        "RoboCop": {
+            "title": "RoboCop",
+            "year": 1987,
+            "genres": "Action|Crime|Drama|Sci-Fi|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZWVlYzU2ZjQtZmNkMi00OTc3LTkwZmYtZDVjNmY4OWFmZGJlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0093870",
+            "movieId": 2985
+        },
+        "Who Framed Roger Rabbit?": {
+            "title": "Who Framed Roger Rabbit?",
+            "year": 1988,
+            "genres": "Adventure|Animation|Children|Comedy|Crime|Fantasy|Mystery",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMDhiOTM2OTctODk3Ny00NWI4LThhZDgtNGQ4NjRiYjFkZGQzXkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0096438",
+            "movieId": 2987
+        },
+        "Live and Let Die": {
+            "title": "Live and Let Die",
+            "year": 1973,
+            "genres": "Action|Adventure|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMzY0M2MzODYtZDU5Yy00YTg2LWJmMGQtNmY1OWZiYjlmNzY0XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0070328",
+            "movieId": 2991
+        },
+        "Thunderball": {
+            "title": "Thunderball",
+            "year": 1965,
+            "genres": "Action|Adventure|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZGNhYjM3ZmQtMTRlZS00YmZiLWFhYjktYWE3ZTk0MGY0MTIwXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0059800",
+            "movieId": 2993
+        },
+        "Being John Malkovich": {
+            "title": "Being John Malkovich",
+            "year": 1999,
+            "genres": "Comedy|Drama|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTFlYjgyMjUtNmJhZS00MDY2LTg0ZmMtNTVlNDA2NTUwYTRjXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0120601",
+            "movieId": 2997
+        },
+        "Spaceballs": {
+            "title": "Spaceballs",
+            "year": 1987,
+            "genres": "Comedy|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTBlNGE0N2EtZDA2OS00OTA3LWFiYjUtODI0YzFmODY3NDExXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0094012",
+            "movieId": 3033
+        },
+        "Robin Hood": {
+            "title": "Robin Hood",
+            "year": 1973,
+            "genres": "Adventure|Animation|Children|Comedy|Musical",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYjUwMzhkM2ItMTU2OC00OTQ5LWJlMDUtMzRmYjc0NDUyNGVhL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0070608",
+            "movieId": 3034
+        },
+        "Dogma": {
+            "title": "Dogma",
+            "year": 1999,
+            "genres": "Adventure|Comedy|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNDQxMTRlYzMtMzQ0ZC00MDJjLWE0YTgtZTAxMmI0MzY2MjVhXkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_SY150_CR4,0,101,150_.jpg",
+            "imdbId": "0120655",
+            "movieId": 3052
+        },
+        "Messenger: The Story of Joan of Arc, The": {
+            "title": "Messenger: The Story of Joan of Arc, The",
+            "year": 1999,
+            "genres": "Drama|War",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZmIyYzliMjEtMjY5MC00YzFlLWI4ZjktMWYwMTA2NjEzODA0XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0151137",
+            "movieId": 3053
+        },
+        "Longest Day, The": {
+            "title": "Longest Day, The",
+            "year": 1962,
+            "genres": "Action|Drama|War",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZTM1ZjQ2YTktNDM2MS00NGY2LTkzNzItZTU4ODg1ODNkMWYxL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0056197",
+            "movieId": 3062
+        },
+        "Green Mile, The": {
+            "title": "Green Mile, The",
+            "year": 1999,
+            "genres": "Crime|Drama",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0120689",
+            "movieId": 3147
+        },
+        "Easy Rider": {
+            "title": "Easy Rider",
+            "year": 1969,
+            "genres": "Adventure|Drama",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTc2MjI2NDc4Ml5BMl5BanBnXkFtZTgwODI4NzU0MTI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0064276",
+            "movieId": 3168
+        },
+        "Talented Mr. Ripley, The": {
+            "title": "Talented Mr. Ripley, The",
+            "year": 1999,
+            "genres": "Drama|Mystery|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BODA3NDhiZjYtYTk2NS00ZWYwLTljYTQtMjU0NzcyMGEzNTU2L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0134119",
+            "movieId": 3176
+        },
+        "Encino Man": {
+            "title": "Encino Man",
+            "year": 1992,
+            "genres": "Comedy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZjc5OGIzYTUtYjFkYy00NDcxLTgwMzUtNzRlMTJmZjZkZDQ4L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0104187",
+            "movieId": 3243
+        },
+        "Sister Act": {
+            "title": "Sister Act",
+            "year": 1992,
+            "genres": "Comedy|Crime",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNTFmOTYxOWMtMDE2MC00ODhmLTlhM2QtZjZkZmVhZGYyNGFlXkEyXkFqcGdeQXVyMjA0MzYwMDY@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0105417",
+            "movieId": 3247
+        },
+        "Wayne's World": {
+            "title": "Wayne's World",
+            "year": 1992,
+            "genres": "Comedy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMDAyNDY3MjUtYmJjYS00Zjc5LTlhM2MtNzgzYjNlOWVkZjkzL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0105793",
+            "movieId": 3253
+        },
+        "Scream 3": {
+            "title": "Scream 3",
+            "year": 2000,
+            "genres": "Comedy|Horror|Mystery|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMDljNmI1YzctNjJlZC00NzZlLWFlZTgtMDE4MjJiMDk0ZGY4XkEyXkFqcGdeQXVyMjg3MDQ0Mjk@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0134084",
+            "movieId": 3273
+        },
+        "JFK": {
+            "title": "JFK",
+            "year": 1991,
+            "genres": "Drama|Mystery|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYjYyODExMDctZjgwYy00ZjQwLWI4OWYtOGFlYjA4ZjEzNmY1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0102138",
+            "movieId": 3386
+        },
+        "Teenage Mutant Ninja Turtles II: The Secret of the Ooze": {
+            "title": "Teenage Mutant Ninja Turtles II: The Secret of the Ooze",
+            "year": 1991,
+            "genres": "Action|Children|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BODdkMTk5ODMtYjhkMS00MGNlLThkMmItYjRjMTc2ZWY1OWIxXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0103060",
+            "movieId": 3439
+        },
+        "Teenage Mutant Ninja Turtles III": {
+            "title": "Teenage Mutant Ninja Turtles III",
+            "year": 1993,
+            "genres": "Action|Adventure|Children|Comedy|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BN2Q4MTY5YTgtNTNkMC00NjBiLThiZTEtNGQ4ODI0NTdmYTA3XkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0108308",
+            "movieId": 3440
+        },
+        "Red Dawn": {
+            "title": "Red Dawn",
+            "year": 1984,
+            "genres": "Action|Drama|War",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNGU2NzI1NDEtNTFlNi00NDA4LWIxNDEtNTliM2RmMmQxMjExXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0087985",
+            "movieId": 3441
+        },
+        "Good Morning, Vietnam": {
+            "title": "Good Morning, Vietnam",
+            "year": 1987,
+            "genres": "Comedy|Drama|War",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BOWRhZGQ5ODQtMzUzNi00M2I4LThmZmUtYmQ0NDQzMTkxMWQ0XkEyXkFqcGdeQXVyMzI0NDc4ODY@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0093105",
+            "movieId": 3448
+        },
+        "Grumpy Old Men": {
+            "title": "Grumpy Old Men",
+            "year": 1993,
+            "genres": "Comedy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMzNiYzQyNGEtYjFiOS00OTcyLTg5YzItMDQ2ZGRmZjE1N2Y4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0107050",
+            "movieId": 3450
+        },
+        "Ladyhawke": {
+            "title": "Ladyhawke",
+            "year": 1985,
+            "genres": "Adventure|Fantasy|Romance",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZjhkMmFmMGMtZTIwMy00NGE0LThkZWQtOWNjMDQ1NTY4MmNjXkEyXkFqcGdeQXVyMTY2MzYyNzA@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0089457",
+            "movieId": 3479
+        },
+        "Hook": {
+            "title": "Hook",
+            "year": 1991,
+            "genres": "Adventure|Comedy|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNjMxODllYTEtN2NmOS00NmE1LWFhMzUtOWRmZmQwZjgwOWM2XkEyXkFqcGdeQXVyOTYyMTY2NzQ@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0102057",
+            "movieId": 3489
+        },
+        "Predator": {
+            "title": "Predator",
+            "year": 1987,
+            "genres": "Action|Sci-Fi|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BY2QwYmFmZTEtNzY2Mi00ZWMyLWEwY2YtMGIyNGZjMWExOWEyXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0093773",
+            "movieId": 3527
+        },
+        "Gladiator": {
+            "title": "Gladiator",
+            "year": 2000,
+            "genres": "Action|Adventure|Drama",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0172495",
+            "movieId": 3578
+        },
+        "Road Trip": {
+            "title": "Road Trip",
+            "year": 2000,
+            "genres": "Comedy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BODA4ZGRhZjgtMTYwMy00MDQzLTkxNTUtYTYwZjE5NDRiZTRjL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0215129",
+            "movieId": 3617
+        },
+        "Man with the Golden Gun, The": {
+            "title": "Man with the Golden Gun, The",
+            "year": 1974,
+            "genres": "Action|Adventure|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYjY3YmM1MTItMWE0NC00NjFmLWFkMDgtMWFiZjY5NzQyZGVjXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0071807",
+            "movieId": 3639
+        },
+        "Blazing Saddles": {
+            "title": "Blazing Saddles",
+            "year": 1974,
+            "genres": "Comedy|Western",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZGZmMWE1MDYtNzAyNC00MDMzLTgzZjQtNTQ5NjYzN2E4MzkzXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0071230",
+            "movieId": 3671
+        },
+        "Mad Max": {
+            "title": "Mad Max",
+            "year": 1979,
+            "genres": "Action|Adventure|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTM4Mjg5ODEzMV5BMl5BanBnXkFtZTcwMDc3NDk0NA@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0079501",
+            "movieId": 3702
+        },
+        "Road Warrior, The (Mad Max 2)": {
+            "title": "Road Warrior, The (Mad Max 2)",
+            "year": 1981,
+            "genres": "Action|Adventure|Sci-Fi|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BN2VlNjNhZWQtMTY2OC00Y2E1LWJkNGUtMDU4M2ViNzliMGYwXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0082694",
+            "movieId": 3703
+        },
+        "Shaft": {
+            "title": "Shaft",
+            "year": 2000,
+            "genres": "Action|Crime|Thriller",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYmJhNWMyOTUtZjgwZS00YzdjLTk1MmMtODJlOTExMDQ3MDU5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0162650",
+            "movieId": 3744
+        },
+        "Big Trouble in Little China": {
+            "title": "Big Trouble in Little China",
+            "year": 1986,
+            "genres": "Action|Adventure|Comedy|Fantasy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BNzlhYjEzOGItN2MwNS00ODRiLWE5OTItYThiNmJlMTdmMzgxXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0090728",
+            "movieId": 3740
+        },
+        "X-Men": {
+            "title": "X-Men",
+            "year": 2000,
+            "genres": "Action|Adventure|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZmIyMDk5NGYtYjQ5NS00ZWQxLTg2YzQtZDk1ZmM4ZDBlN2E3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY150_CR0,0,101,150_.jpg",
+            "imdbId": "0120903",
+            "movieId": 3793
+        },
+        "What About Bob?": {
+            "title": "What About Bob?",
+            "year": 1991,
+            "genres": "Comedy",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BMTQxMjU2ODk4N15BMl5BanBnXkFtZTgwODQzNTcxMTE@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0103241",
+            "movieId": 3809
+        },
+        "Transformers: The Movie": {
+            "title": "Transformers: The Movie",
+            "year": 1986,
+            "genres": "Adventure|Animation|Children|Sci-Fi",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BZGM1MGY4OTYtOGZkOC00NjYyLTk3OTMtODUyZDdhYWQ3NGFjXkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0092106",
+            "movieId": 4006
+        },
+        "M*A*S*H (a.k.a. MASH)": {
+            "title": "M*A*S*H (a.k.a. MASH)",
+            "year": 1970,
+            "genres": "Comedy|Drama|War",
+            "url_poster": "https://m.media-amazon.com/images/M/MV5BYTMzY2UwODktMjFiZC00NzUxLWE1M2ItOTg0YTAxMTgwMTEzXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX101_CR0,0,101,150_.jpg",
+            "imdbId": "0066026",
+            "movieId": 5060
+        }
+    }
+}
